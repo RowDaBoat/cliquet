@@ -1,0 +1,10 @@
+nimTitle	config	config.html	module src/config		0
+nim	Args	config.html#Args	ConfigSource.Args		7
+nim	ConfigFile	config.html#ConfigFile	ConfigSource.ConfigFile		7
+nim	Default	config.html#Default	ConfigSource.Default		7
+nim	ConfigSource	config.html#ConfigSource	enum ConfigSource		7
+nim	option	config.html#option	Mode.option		8
+nim	config	config.html#config	Mode.config		8
+nim	both	config.html#both	Mode.both		8
+nim	Mode	config.html#Mode	enum Mode		8
+nim	Config	config.html#Config_2	object Config		10

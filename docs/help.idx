@@ -1,0 +1,2 @@
+nimTitle	help	help.html	module src/help		0
+nim	buildHelp	help.html#buildHelp,seq[string],Table[string,Config]	proc buildHelp(namesInOrder: seq[string]; definitions: Table[string, Config]): string		10

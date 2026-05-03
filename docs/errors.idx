@@ -1,0 +1,6 @@
+nimTitle	errors	errors.html	module src/errors		0
+nim	InvalidShortOptionsError	errors.html#InvalidShortOptionsError	object InvalidShortOptionsError		7
+nim	InvalidValueError	errors.html#InvalidValueError	object InvalidValueError		11
+nim	invalidShortOptions	errors.html#invalidShortOptions,string	proc invalidShortOptions(arg: string)		18
+nim	invalidValue	errors.html#invalidValue,string,string,ConfigSource,string	proc invalidValue(configName: string; value: string; chosen: ConfigSource;\n             expected: string)		25
+nim	typeNotSupported	errors.html#typeNotSupported,string	proc typeNotSupported(typename: string)		36

@@ -1,0 +1,4 @@
+nimTitle	generators	generators.html	module src/generators		0
+nim	generateUsage	generators.html#generateUsage,string,seq[string],Table[string,Config]	proc generateUsage(program: string; namesInOrder: seq[string];\n              definitions: Table[string, Config]): string		11
+nim	generateConfig	generators.html#generateConfig,seq[string],Table[string,Config]	proc generateConfig(namesInOrder: seq[string]; definitions: Table[string, Config]): string		30
+nim	generateHelp	generators.html#generateHelp,seq[string],Table[string,Config]	proc generateHelp(namesInOrder: seq[string]; definitions: Table[string, Config]): string		39

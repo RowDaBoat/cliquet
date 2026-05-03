@@ -1,0 +1,11 @@
+nimTitle	clip	clip.html	module src/clip		0
+nim	Clip	clip.html#Clip	object Clip		15
+nim	help	clip.html#help.t,string	template help(message: string)		23
+nim	shortOption	clip.html#shortOption.t,char	template shortOption(opt: char)		27
+nim	initClip	clip.html#initClip,T	proc initClip[T: object](default: T = default(T)): Clip[T]		116
+nim	parseArgs	clip.html#parseArgs,Clip[T: object],seq[string]	proc parseArgs[T: object](self: var Clip[T]; args: seq[string]): seq[string]		138
+nim	parseConf	clip.html#parseConf,Clip[T: object],string	proc parseConf[T: object](self: var Clip[T]; config: string)		160
+nim	config	clip.html#config,Clip[T: object]	proc config[T: object](self: var Clip[T]): T		182
+nim	unknownArgs	clip.html#unknownArgs,Clip[T]	proc unknownArgs[T](self: var Clip[T]): seq[string]		206
+nim	unknownConfigs	clip.html#unknownConfigs,Clip[T]	proc unknownConfigs[T](self: var Clip[T]): seq[string]		214
+nim	help	clip.html#help,Clip[T: object]	proc help[T: object](self: Clip[T]): string		222

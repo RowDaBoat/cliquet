@@ -1,0 +1,11 @@
+nimTitle	cclap	cclap.html	module src/cclap		0
+nim	Cclap	cclap.html#Cclap	object Cclap		16
+nim	help	cclap.html#help.t,string	template help(message: string)		24
+nim	shortOption	cclap.html#shortOption.t,char	template shortOption(opt: char)		28
+nim	initCclap	cclap.html#initCclap,T	proc initCclap[T: object](default: T = default(T)): Cclap[T]		137
+nim	parseArgs	cclap.html#parseArgs,Cclap[T: object],seq[string]	proc parseArgs[T: object](self: var Cclap[T]; args: seq[string]): seq[string]		163
+nim	parseConfig	cclap.html#parseConfig,Cclap[T: object],string	proc parseConfig[T: object](self: var Cclap[T]; config: string)		186
+nim	config	cclap.html#config,Cclap[T: object]	proc config[T: object](self: var Cclap[T]): T		208
+nim	unknownArgs	cclap.html#unknownArgs,Cclap[T]	proc unknownArgs[T](self: var Cclap[T]): seq[string]		234
+nim	unknownConfigs	cclap.html#unknownConfigs,Cclap[T]	proc unknownConfigs[T](self: var Cclap[T]): seq[string]		242
+nim	help	cclap.html#help,Cclap[T: object]	proc help[T: object](self: Cclap[T]): string		250

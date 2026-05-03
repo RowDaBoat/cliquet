@@ -1,0 +1,18 @@
+nimTitle	cliquet	cliquet.html	module src/cliquet		0
+nim	Cliquet	cliquet.html#Cliquet	object Cliquet		20
+nim	help	cliquet.html#help.t,string	template help(message: string)		28
+nim	shortOption	cliquet.html#shortOption.t,char	template shortOption(opt: char)		32
+nim	mode	cliquet.html#mode.t,Mode	template mode(mode: Mode)		36
+nim	usage	cliquet.html#usage.t,string	template usage(usage: string)		40
+nim	required	cliquet.html#required.t	template required()		44
+nim	initCliquet	cliquet.html#initCliquet,T	proc initCliquet[T: object](default: T = default(T)): Cliquet[T]		153
+nim	parseOptions	cliquet.html#parseOptions,Cliquet[T: object],seq[string]	proc parseOptions[T: object](self: var Cliquet[T]; args: seq[string]): seq[string]		179
+nim	parseConfig	cliquet.html#parseConfig,Cliquet[T: object],string	proc parseConfig[T: object](self: var Cliquet[T]; config: string)		202
+nim	checkRequirement	cliquet.html#checkRequirement,Cliquet[T: object],Config	proc checkRequirement[T: object](self: var Cliquet[T]; definition: Config): bool		224
+nim	config	cliquet.html#config,Cliquet[T: object]	proc config[T: object](self: var Cliquet[T]): T		244
+nim	unknownOptions	cliquet.html#unknownOptions,Cliquet[T]	proc unknownOptions[T](self: var Cliquet[T]): seq[string]		272
+nim	unknownConfigs	cliquet.html#unknownConfigs,Cliquet[T]	proc unknownConfigs[T](self: var Cliquet[T]): seq[string]		287
+nim	unmetRequirments	cliquet.html#unmetRequirments,Cliquet[T]	proc unmetRequirments[T](self: var Cliquet[T]): seq[string]		301
+nim	generateUsage	cliquet.html#generateUsage,Cliquet[T: object]	proc generateUsage[T: object](self: Cliquet[T]): string		309
+nim	generateConfig	cliquet.html#generateConfig,Cliquet[T: object]	proc generateConfig[T: object](self: Cliquet[T]): string		315
+nim	generateHelp	cliquet.html#generateHelp,Cliquet[T: object]	proc generateHelp[T: object](self: Cliquet[T]): string		320
